@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fondo.png</file>
+        <file>billete_20.jpg</file>
+        <file>moneda_1.png</file>
+        <file>moneda_2.png</file>
+        <file>moneda_5.png</file>
+        <file>moneda_10.png</file>
+        <file>tabla.png</file>
+        <file>ticket.png</file>
+    </qresource>
+</RCC>

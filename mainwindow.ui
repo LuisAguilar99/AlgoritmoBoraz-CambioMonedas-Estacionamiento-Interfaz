@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>726</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Estaciomaniento</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="tomar_ticket">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>180</y>
+      <width>131</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Consolas</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Tomar
+Ticket</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>181</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Tarifas</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>161</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>15 minutos ---------- 20$</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>161</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>30 minutos ---------- 30$</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>161</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>60 minutos ---------- 50$</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Aharoni</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Tomar ticket</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>10</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Aharoni</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Pagar ticket</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>10</y>
+      <width>251</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Aharoni</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Depositar monedas</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>70</y>
+      <width>151</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Pago</string>
+    </property>
+    <widget class="QPushButton" name="boton_pagar">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>60</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Pagar</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>51</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ticket:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="obtener_ticket">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>30</y>
+       <width>71</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>80</y>
+      <width>231</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Monedas de cambio</string>
+    </property>
+    <widget class="QCheckBox" name="dar_de_20">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>41</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>20</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="dar_de_10">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>50</y>
+       <width>41</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>10</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="dar_de_5">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>50</y>
+       <width>31</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>5</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="dar_de_2">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>50</y>
+       <width>31</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="dar_de_1">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>50</y>
+       <width>31</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="tristate">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="interfaz_b_20">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="imagenes.qrc">:/billete_20.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="interfaz_m_10">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>20</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="imagenes.qrc">:/moneda_10.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="interfaz_m_5">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>20</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="imagenes.qrc">:/moneda_5.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="interfaz_m_2">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>20</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="imagenes.qrc">:/moneda_2.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="interfaz_m_1">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>20</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="imagenes.qrc">:/moneda_1.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>180</y>
+      <width>121</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Total a pagar</string>
+    </property>
+    <widget class="QLabel" name="mostrar_total">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>30</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>  0</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>35</y>
+       <width>20</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>$</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_5">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>280</y>
+      <width>221</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Monedas aceptadas</string>
+    </property>
+    <widget class="QPushButton" name="moneda_10">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="moneda_5">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>50</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="moneda_2">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>50</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="moneda_1">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>50</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="interfaz_m_3">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>20</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string> 2</string>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="imagenes.qrc">:/moneda_2.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="interfaz_m_4">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>20</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string> 1</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="imagenes.qrc">:/moneda_1.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="interfaz_m_6">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>20</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string> 5</string>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="imagenes.qrc">:/moneda_5.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="interfaz_m_11">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>10</string>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="imagenes.qrc">:/moneda_10.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="tabla_tickets">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>300</y>
+      <width>281</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>280</y>
+      <width>251</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ticket   Hora entrada  Hora salida   $</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_6">
+    <property name="geometry">
+     <rect>
+      <x>529</x>
+      <y>380</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Depositado</string>
+    </property>
+    <widget class="QLabel" name="mostrar_saldo">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>22</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>$</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="interfaz">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>721</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="imagenes.qrc">:/fondo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="interfaz_tabla">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>280</y>
+      <width>301</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="imagenes.qrc">:/tabla.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="n_ticket_s">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>190</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="n_ticket_s_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>190</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <zorder>interfaz</zorder>
+   <zorder>tomar_ticket</zorder>
+   <zorder>groupBox</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>groupBox_2</zorder>
+   <zorder>groupBox_3</zorder>
+   <zorder>groupBox_4</zorder>
+   <zorder>groupBox_5</zorder>
+   <zorder>groupBox_6</zorder>
+   <zorder>interfaz_tabla</zorder>
+   <zorder>tabla_tickets</zorder>
+   <zorder>label_4</zorder>
+   <zorder>n_ticket_s_2</zorder>
+   <zorder>n_ticket_s</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>726</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="imagenes.qrc"/>
+ </resources>
+ <connections/>
+</ui>
